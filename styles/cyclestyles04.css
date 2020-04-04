@@ -1,0 +1,35 @@
+/*  Author: Eric Johnson
+    Date: 4/3/2020
+    Grantham University
+    CS197 Programming in HTML
+    Week 4: CSS
+*/
+
+body {
+    background-color: #FF9900;
+    color: black;
+    font-family: Calibri, sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 2%;
+}
+
+.floatright {
+    float: right;
+    margin-left: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.boldtext, dt {
+    font-weight: bold;
+}
