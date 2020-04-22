@@ -89,6 +89,15 @@ div p{
 	padding-bottom: 1em;
 }
 
+/* Style for form inputs */
+input, textarea{
+	display: block;
+	margin-bottom: 1em;
+}
+label{
+	display: block;
+}
+
 
 @media screen and (min-width: 481px) { /* tablet */
 	img {
@@ -156,6 +165,15 @@ div p{
 	caption{
 		font-size: 1.5em;
 		padding-bottom: 1em;
+	}
+
+	/* Style rule for floating input labels to the left of 
+		the input they are labeling */
+	label{
+		float: left;
+		padding-right: 0.5em;
+		text-align: right;
+		width: 8em;
 	}
 }
 	
