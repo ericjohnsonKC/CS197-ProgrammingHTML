@@ -1,8 +1,8 @@
 /*	Author: Eric Johnson
-	Date: 4/10/2020
+	Date: 4/21/2020
 	Grantham University
 	CS197 Programming in HTML
-	Week 5 assignment
+	Week 6 assignment
 */
 
 /* Style for body specifies a background color */
@@ -145,6 +145,18 @@ div p{
 		box-shadow: 1em 1em 1em #000000;
 		border-radius: 8em;
 	}
+
+	/* Setting table style properties for tablet */
+	table, th, td{
+		border: solid 0.1em #ff6600;
+		border-collapse: collapse;
+		padding: 1em;
+	}
+	/* Styling the table caption for tablet */
+	caption{
+		font-size: 1.5em;
+		padding-bottom: 1em;
+	}
 }
 	
 @media screen and (min-width: 769px) { /* desktop */
@@ -205,6 +217,14 @@ div p{
 		width: 25%;
 		background-color: #FF6600;
 		color: #FFFFFF;
+	}
+
+	/*	Setting table style properties for desktop */
+	table{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
 	}
 	
 }	
