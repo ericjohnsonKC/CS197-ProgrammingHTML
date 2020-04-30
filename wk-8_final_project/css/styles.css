@@ -1,0 +1,150 @@
+body {
+    margin-top: 0;
+    font-family: verdana, sans-serif;
+}
+
+header {
+    margin: 0px;
+}
+
+header img {
+    opacity: .5;
+}
+
+header h1 {
+    color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 35%;
+    font-size: 5em;
+    opacity: 1;
+
+}
+
+nav {
+    text-align: center;
+    background: #666699;
+    width: 100%;
+    height: 70px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: -5px;
+}
+nav li{
+    display: inline-block;
+    margin: 20px 100px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-family: verdana, sans-serif;
+}
+
+#nav-home:hover {
+    font-weight: bolder;
+}
+
+#nav-portfolio:hover {
+    font-weight: bolder;
+}
+
+#nav-resume:hover {
+    font-weight: bolder;
+}
+
+#nav-about:hover {
+    font-weight: bolder;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .centered {
+      text-align: center;
+  }
+
+  table {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+
+  table, tr, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+
+  table caption {
+      margin: .5em;
+  }
+
+  table tr td {
+      padding: 20px;
+  }
+
+  hr {
+      color: white;
+  }
+
+  #image-port-royal {
+      width: 400px;
+  }
+
+  .center-contents {
+      text-align: center;
+  }
+
+  .resume-card {
+      background: #eeeeff;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding-top: 1em;
+      padding-bottom: 1em;
+  }
+
+  .resume-card div img {
+      border-radius: 10px;
+  }
+
+  #bio {
+      padding: 1em 250px;
+  }
+
+  footer {
+      text-align: center;
+      background: #666699;
+      color: #ffffff;
+      width: 100%;
+      bottom: 0;
+      margin-top: 10px;
+  }
+
+  footer div.inline {
+      display: inline-block;
+      width: 30%;
+      margin-top: 40px;
+      margin: 0px;
+  }
+
+  footer div a {
+      color:#ffffff;
+      display: inline-block;
+      margin: 1em .5em;
+  }
