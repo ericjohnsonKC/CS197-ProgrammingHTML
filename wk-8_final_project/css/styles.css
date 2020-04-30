@@ -13,10 +13,10 @@ header img {
 
 header h1 {
     color: #ffffff;
-    position: absolute;
+    position: absolute; /* Using absolute positioning here to overlay the text on the banner image.*/
     z-index: 1;
-    top: 30px;
-    left: 35%;
+    top: 30px; /* This is used for placing the overlay*/
+    left: 35%; /* This is used for placing the overlay*/
     font-size: 5em;
     opacity: 1;
 
@@ -30,7 +30,7 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: none; /* Using this to remove the circles.*/
     margin-top: -5px;
 }
 nav li{
@@ -39,28 +39,29 @@ nav li{
 }
 
 nav li a {
-    text-decoration: none;
+    text-decoration: none; /* This removes the default link underlining.*/
     font-size: 1.5em;
     color: #ffffff;
     font-family: verdana, sans-serif;
 }
 
 #nav-home:hover {
-    font-weight: bolder;
+    font-weight: bolder; /* This creates a visual effect to indicate a link.*/
 }
 
 #nav-portfolio:hover {
-    font-weight: bolder;
+    font-weight: bolder; /* This creates a visual effect to indicate a link.*/
 }
 
 #nav-resume:hover {
-    font-weight: bolder;
+    font-weight: bolder; /* This creates a visual effect to indicate a link.*/
 }
 
 #nav-about:hover {
-    font-weight: bolder;
+    font-weight: bolder; /* This creates a visual effect to indicate a link.*/
 }
 
+/* Added an embedded video from YouTube using their styling suggestions.*/
 .iframe-container{
     position: relative;
     width: 100%;
@@ -75,6 +76,7 @@ nav li a {
     height: 100%;
   }
 
+  /* This class was used for centering elements throughout the site.*/
   .centered {
       text-align: center;
   }
@@ -92,7 +94,7 @@ nav li a {
   }
 
   table caption {
-      margin: .5em;
+      margin: .5em; /* Gave the table caption more spacing for readability.*/
   }
 
   table tr td {
@@ -111,6 +113,7 @@ nav li a {
       text-align: center;
   }
 
+  /* This was for visual contrast for each resume entry.*/
   .resume-card {
       background: #eeeeff;
       margin-top: 30px;
@@ -118,7 +121,7 @@ nav li a {
       padding-top: 1em;
       padding-bottom: 1em;
   }
-
+  /* Softened the corners of the images for a more polished look.*/
   .resume-card div img {
       border-radius: 10px;
   }
@@ -135,7 +138,7 @@ nav li a {
       bottom: 0;
       margin-top: 10px;
   }
-
+  /* Used this styling to arrange the contact info horizontally inline.*/
   footer div.inline {
       display: inline-block;
       width: 30%;
